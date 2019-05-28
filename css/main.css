@@ -1,0 +1,144 @@
+html {
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	}
+
+header {
+	float: left;
+	}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+	}
+
+h1 {
+	color: #77a466;
+	font-size: 1.875em;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	text-transform: uppercase;
+	}
+
+.black {
+	color: #000000;
+	}
+
+nav, a {
+	color: #77a466;
+	font-size: 0.875em;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	}
+
+a {
+	padding-right: 0.625em;
+	padding-top: 1.875em;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+
+h2 {
+	color: #77a466;
+	font-size: 1.125em;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	}
+
+.img {
+	border-top: 4px solid #77a466;
+	border-bottom: 4px solid #77a466;
+	}
+
+.intro {
+	text-align: center;
+	border-bottom: 2px solid #dedbdc;
+	padding-bottom: 1.875em;
+	}
+
+section, p {
+	font-size: 0.875em;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	}
+
+header, main, section, footer {
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	
+.thirdwidth{
+	padding: 1.25em;
+	margin: 0px;
+	width: 350px;
+	height: 150px;
+	float: left;
+	border-right: .125em solid #dedbdc;
+	overflow: auto;
+	}
+
+section {
+	overflow: auto;
+	}
+
+#contact {
+	border-right: none;
+	}
+
+h3 {
+	font-size: 0.75em;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	}
+
+ul, li {
+	color: #77a466;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	text-align: left;
+	}
+
+li {
+	text-align: left;
+	padding-bottom: .625em;
+	}
+
+footer {
+	color: #000000;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 1.875em;
+	border-top: 2px solid #dedbdc;
+	}
+
+.green {
+	color: #77a466;
+	font-family: 'Wisdom Script AI';
+	@import url(//db.onlinewebfonts.com/c/d6ced0df95b7cc53e0eae88817930d08?family=Wisdom+Script+AI);
+	}
+
+
+@media all and (max-width: 768px) {
+
+}
+
+
+media (min-width: 1200px) {
+
+}
+
+
