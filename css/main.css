@@ -6,12 +6,14 @@ html {
 
 header {
 	float: left;
+	flex-flow: row wrap;
 	}
 
 body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-flow: row wrap;
 	font-size: 1em;
 	}
 
@@ -33,7 +35,10 @@ nav, a {
 	font-size: 0.875em;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
-	text-align: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 	}
 
 a {
@@ -75,6 +80,7 @@ header, main, section, footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-flow: row wrap;
 	}
 	
 .thirdwidth{
@@ -85,6 +91,10 @@ header, main, section, footer {
 	float: left;
 	border-right: .125em solid #dedbdc;
 	overflow: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 	}
 
 section {
@@ -132,12 +142,31 @@ footer {
 	}
 
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) {
+	/* Tablet Styles Here */
 
+.thirdwidth{
+	padding: 1.25em;
+	margin: 0px;
+	width: 350px;
+	height: 150px;
+	float: left;
+	border-right: .125em solid #dedbdc;
+	overflow: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: space-between;
+	}
 }
 
 
 media (min-width: 1200px) {
+	/* Desktop Styles Here */
+ header nav ul {	
+	display: flex;
+ 	justify-content: space-between;
+	}
 
 }
 
